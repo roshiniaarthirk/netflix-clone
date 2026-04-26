@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* BACKGROUND */
+.login {
+  height: 100vh;
+  position: relative;
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("https://assets.nflxext.com/ffe/siteui/vlv3/cover.jpg");
+  background-size: cover;
+  filter: brightness(0.4);
+}
+
+/* LOGO */
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  color: red;
+  font-size: 32px;
+  z-index: 10;
+}
+
+/* LOGIN BOX */
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,0.75);
+  padding: 40px;
+  width: 320px;
+  border-radius: 6px;
+  z-index: 10;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+}
+
+/* DEMO */
+.demo {
+  font-size: 13px;
+  color: #bbb;
+  margin-bottom: 15px;
+}
+
+/* INPUT */
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  background: #333;
+  border: none;
+  color: white;
+}
+
+/* BUTTON */
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  background: #e50914;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* ERROR */
+.error {
+  color: red;
+}
