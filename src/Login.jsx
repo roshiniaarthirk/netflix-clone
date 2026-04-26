@@ -39,13 +39,21 @@ function Login() {
 
       {/* 🎬 Moving Background Posters */}
       <div className="poster-bg">
-        <div className="poster-track">
-          <img src="https://image.tmdb.org/t/p/w500/uGBVj3bEbCoZbDjjl9wTxcygko1.jpg" />
-          <img src="https://image.tmdb.org/t/p/w500/1E5baAaEse26fej7uHcjOgEE2t2.jpg" />
-          <img src="https://image.tmdb.org/t/p/w500/6EdKBYkB1ssgGjc249ud1L55o8d.jpg" />
-          <img src="https://image.tmdb.org/t/p/w500/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg" />
-          <img src="https://image.tmdb.org/t/p/w500/5hNcsnMkwU2LknLoru73c76el3z.jpg" />
-        </div>
+        {/* 🎬 FULL MOVIE POSTER BACKGROUND */}
+<div className="poster-bg">
+  <div className="poster-grid">
+
+    <img src="https://image.tmdb.org/t/p/w500/uGBVj3bEbCoZbDjjl9wTxcygko1.jpg" />
+    <img src="https://image.tmdb.org/t/p/w500/1E5baAaEse26fej7uHcjOgEE2t2.jpg" />
+    <img src="https://image.tmdb.org/t/p/w500/6EdKBYkB1ssgGjc249ud1L55o8d.jpg" />
+    <img src="https://image.tmdb.org/t/p/w500/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg" />
+    <img src="https://image.tmdb.org/t/p/w500/5hNcsnMkwU2LknLoru73c76el3z.jpg" />
+    <img src="https://image.tmdb.org/t/p/w500/8UlWHLMpgZm9bx6QYh0NFoq67TZ.jpg" />
+    <img src="https://image.tmdb.org/t/p/w500/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg" />
+    <img src="https://image.tmdb.org/t/p/w500/2CAL2433ZeIihfX1Hb2139CX0pW.jpg" />
+
+  </div>
+</div>
       </div>
 
       <div className="bg"></div>
